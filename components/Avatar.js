@@ -3,7 +3,7 @@ import { Popover } from '@headlessui/react'
 
 import { Icon } from './HeaderIcon'
 
-export default function AvatarHeader () {
+export default function AvatarHeader() {
   return (
     <Popover className='relative flex items-center justify-center'>
       <Popover.Button>
@@ -18,7 +18,7 @@ export default function AvatarHeader () {
             <img className='object-cover rounded-full' src='https://studiosol-a.akamaihd.net/uploadfile/cifraclub/avatar/1/6/4chqb0yf7cd.jpg' />
           </div>
           <div className='flex flex-col flex-grow overflow-hidden'>
-            <h1 className='font-bold hover:text-blue-500'>Carlos</h1>
+            <h1 className='font-bold hover:text-blue-500'>Nombre</h1>
             <p className='text-sm text-gray-500'>example@gmail.com</p>
           </div>
         </div>

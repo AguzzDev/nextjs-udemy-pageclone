@@ -3,7 +3,7 @@ import { Menu, Transition } from '@headlessui/react'
 
 import { Icon } from './HeaderIcon'
 
-export default function DropdownSmallScreen () {
+export default function DropdownSmallScreen() {
   return (
     <Menu>
       <Menu.Button className='cursor-pointer sm:flex md:hidden'>
@@ -21,7 +21,7 @@ export default function DropdownSmallScreen () {
                   <img className='object-cover rounded-full' src='https://studiosol-a.akamaihd.net/uploadfile/cifraclub/avatar/1/6/4chqb0yf7cd.jpg' />
                 </div>
                 <div className='flex flex-col overflow-hidden'>
-                  <h1 className='font-bold break-words'>Hola, Carlos</h1>
+                  <h1 className='font-bold break-words'>Hola, Nombre</h1>
                   <p className='text-sm text-gray-500'>¡Hola de nuevo!</p>
                 </div>
                 <div className='flex'>
